@@ -1,0 +1,93 @@
+.body {
+    font-family: 'Montserrat';
+    font-size: 22px;
+}
+
+
+/* UTILITY CLASSES*/
+
+.img_response {
+    max-width: 100%;
+}
+
+.hero_img {
+    background: url(food4.png) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.hero_wrap {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.hero_wrap h1 {
+    font-size: 2.4rem;
+    text-align: center;
+}
+
+.hero_wrap span {
+    margin-left: 8rem;
+    display: inline-block;
+    margin-bottom: .5rem;
+}
+
+.form_code {
+    text-align: center;
+}
+
+.form_code .post_code {
+    display: block;
+    width: 65%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2rem;
+    padding: .5rem;
+    border: none;
+    outline: none;
+}
+
+.form_code button {
+    width: 35%;
+    display: inline-block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    border-radius: 0.3rem;
+    border: none;
+    color: white;
+    background-color: #2cb7cead;
+}
+
+
+/* SECTION 2*/
+
+.product {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .5rem;
+}
+
+.item1 {
+    float: left;
+    width: 32%;
+    margin-left: 1rem;
+}
+
+.item1:first-of-type {
+    margin-left: 0rem;
+}
+
+@media screen and (max-width: 700px) {
+    .item1 {
+        width: 100%;
+        float: none;
+    }
+}
