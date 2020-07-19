@@ -88,7 +88,7 @@
 
 @media screen and (max-width: 700px) {
     .item1 {
-        flec: none;
+        flex: none;
         box-sizing: border-box;
         width: 100%;
         margin: 2px 15px;
