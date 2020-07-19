@@ -88,7 +88,9 @@
 
 @media screen and (max-width: 700px) {
     .item1 {
+        box-sizing: border-box;
         width: 100%;
+        padding: 2px auto;
         display: block;
     }
 }
