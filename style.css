@@ -88,9 +88,10 @@
 
 @media screen and (max-width: 700px) {
     .item1 {
+        flec: none;
         box-sizing: border-box;
         width: 100%;
-        padding: 2px auto;
-        display: block;
+        margin: 2px 15px;
+        
     }
 }
