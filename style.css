@@ -69,6 +69,7 @@
 /* SECTION 2*/
 
 .product {
+    box-sizing: border-box;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
