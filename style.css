@@ -88,6 +88,6 @@
 @media screen and (max-width: 700px) {
     .item1 {
         width: 100%;
-        float: none;
+        display: block;
     }
 }
